@@ -1,0 +1,116 @@
+<!--    Lab 4,   Sarantsetseg Hedenfalk   -->
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=deice-width, initial-scale=1; maximum-scale=1" />
+	<title>Lab 4-Sara</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+	<script src="script/scripts.js"></script>
+
+</head>
+<body>
+<div id="wrap">
+
+	<section id="hero">
+	<div id="text" class="aligncenter">
+		<h1 class="aligncenter">Welcome to the book world!</h1>
+		<h3 id="hKey" class="aligncenter">Please, request a key to use our library</h3>
+		<button id="btnKey" class="aligncenter">Request a key</button>
+		<p id="pKey" class="aligncenter">Your key is: </p>
+	</div>
+		
+	</section>
+
+	<section id="fails">
+		<p id="pFails">Number of requests that failed: 0</p> 
+	</section>
+
+	<section id="main">
+		<div id="divBooks">
+
+
+		<!--View books-->
+			<button id="viewTitle" class="btnTitle aligncenter">
+				View Books
+			</button>
+			<div id="viewOutput">
+				<button id="btnView" class="aligncenter btnMain">View Books</button>
+				<div id="booksResult">
+					<p id="errorM"></p>
+					<p id="errorM2"></p>
+				</div>
+				<p id="pEndv" class="end">End of result.</p>	
+			</div>
+
+
+		<!--Add book-->
+			<button id="addTitle" class="btnTitle aligncenter">
+				Add Book
+			</button>
+			<div id="addOutput">
+				<button id="btnAdd" class="aligncenter btnMain">Add Books</button>
+				<input type = "text" id = "inputBookTitle" placeholder="Title" />
+				<input type = "text" id = "inputBookAuthor" placeholder="Author" />
+				<div id="addedBooks">
+					<p id="errorAddBook"></p>
+					<p id="errorAddbook2"></p>
+					<h4 id="titleAddedBooks">Added Books</h4>
+					
+				</div>
+				<p id="pEnd" class="end">End of result.</p>
+			</div>
+
+
+		<!--Change books-->
+			<button id="changeTitle" class="btnTitle aligncenter">
+				Change Book
+			</button>
+			<div id="changeOutput">
+				<button id="btnChange" class="aligncenter btnMain">Change Book</button>
+				<input type = "text" id = "inputChangeBookId" placeholder="Book id" />
+				<input type = "text" id = "inputChangeBookTitle" placeholder="New title" />
+				<input type = "text" id = "inputChangeBookAuthor" placeholder="New author" />
+
+				<div id="replacedBook">
+					<p id="errorChangeBook">fsfsf</p>
+					<p id="errorChangeBook2">fsfsfsf</p>
+					<h4 id="titleChangedBook">Changed Books</h4>
+					
+				</div>
+				<p id="pEndC" class="end">End of result.</p>
+				
+			</div>
+
+
+		<!--Delete book-->
+			<button id="deletTitle" class="btnTitle aligncenter">
+				Delete Book
+			</button>
+			<div id="deleteOutput">
+				<button id="btnDelete" class="aligncenter btnMain">Delete Book</button>
+				<input type = "text" id = "inputDeleteBookId" placeholder="Book id" />
+
+				<div id="deletedBook">
+					<p id="errorDeleteBook">fsfsf</p>
+					<p id="errorDeleteBook2">fsfsfsf</p>
+					<h4 id="titleDeletedBook">Deleted Books</h4>
+					
+				</div>
+				<p id="pEndD" class="end">End of result.</p>
+				
+			</div>
+		</div>
+		
+	</section>
+
+	<footer>
+	</footer>
+	
+</div>
+</body>
+</html>
